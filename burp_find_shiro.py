@@ -1,6 +1,6 @@
 #coding:utf-8
 #author:Jumbo
-import re
+import re1
 from burp import IBurpExtender, IScannerInsertionPointProvider, IScannerInsertionPoint, IParameter, IScannerCheck, IScanIssue,ITab,ICookie
 
 class BurpExtender(IBurpExtender, IScannerCheck):
